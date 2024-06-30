@@ -43,54 +43,6 @@ class Recipes extends StatelessWidget {
 
 
 
-
-
-
-
-  /*void chumma(){
-    for(var key in chat.keys){
-      if(kDebugMode){
-        for(var i=0;i< chat[key]!.length;i++){
-          for(var j=0;j<widget.alpha!.length;j++){
-            if(chat[key]![i] ==widget.alpha![j]){
-              k++;
-            }
-          }
-          if(k==chat[key]!.length){
-            lo!.add(key);
-          }
-          k=0;
-        }
-      }
-    }
-  }*/
- /* List<String> lo = [];
-
-  void funpanrom() {
-    print('12');
-
-    for (var key in chat.keys) {
-      bool allInAlpha = true;
-
-      for (int num in chat[key]!) {
-        if (alpha!.contains(num)) {
-          allInAlpha = false;
-          break;
-        }
-      }
-
-      if (allInAlpha) {
-        lo.add(key);
-      }
-    }
-    for (int i = 0; i < lo.length; i++) {
-      print('1');
-      print(lo);
-    }
-  }
-  */
-
-
   @override
   Widget build(BuildContext context)  {
     return Scaffold(

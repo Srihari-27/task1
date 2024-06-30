@@ -31,17 +31,7 @@ class _IngredState extends State<Ingred> {
 
 
   ];
-  /*int len=0;
-  void pol() {
 
-
-   / if (things != null) {
-      len = things!.length;
-    }
-    else {
-      len = 0;
-    }
-  }*/
   @override
   void initState() {
     super.initState();
